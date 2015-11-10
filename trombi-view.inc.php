@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Trombinoscope de la communauté Simplon Narbonne</title>
+		<meta charset="utf-8" />			
+	</head>
+	
+	<body>
+	
+		<h2>Bienvenue Simplonnien-ne</h2>
+		<p>Tu peux t'enregistrer grâce au formulaire ci-dessous.</p>
+		
+		
+		
+		<?php /** Etablissement du formulaire **/ ?>
+		<form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'], ENT_QUOTES); ?>">
+			<div>
+				<label for="prenom">Prénom :</label>
+				<input type="text" name="prenom" id="prenom" />
+			</div>
+			<div>
+				<label for="nom">Nom :</label>
+				<input type="text" name="nom" id="nom" />
+			</div>
+			<div>
+				<label for="github">Github :</label>
+				<input type="text" name="github" id="github" />
+			</div>
+			<div>
+				<input type="submit" name="envoyer" value="Soumettre" />			
+			</div>			
+		</form>
+		
+	
+	</body>
+
+</html>

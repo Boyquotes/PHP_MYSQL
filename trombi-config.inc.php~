@@ -1,0 +1,26 @@
+<?php
+
+	/** Constantes d'accés à la base de données et de configuration de trombi **/
+	
+	//Adresse du serveur de base de données.
+	$db_serveur = 'localhost';
+	
+	//Login.
+	$db_login = 'root';
+	
+	//Mot de passe.
+	$db_pass = 'laTerlen801012';
+	
+	//Nom de la base de données.
+	$db_name = 'trombi_narbonne';
+	
+	//Nom de la table du trombi.
+	$db_name_table = 'simplonniens';
+	
+	//Driver correspondant à la base de données.
+	$db_dsn = 'mysql:host='.$db_serveur.';dbname='.$db_name;
+	
+	//URL du trombi.
+	$url_db = 'http://localhost/Simplon/Exercices/PHP_MYSQL/Trombi/trombi.php';
+	
+?>
